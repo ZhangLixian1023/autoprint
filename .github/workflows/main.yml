@@ -24,10 +24,10 @@ jobs:
       - name: Send email
         uses: dawidd6/action-send-mail@v3.12.0
         with:
-          server_address: outlook.office365.com
-          server_port: 993
+          server_address: 	mail.ustc.edu.cn
+          server_port: 465
           username: ${{ secrets.EMAIL_USERNAME }} 
-          password: ${{ secrets.EMAIL_PASSWORD }} 
+          password: gDHVEUxgwRb2mGSI
           subject: "Daily Attachment: ${{ env.FILE_NAME }}"
           from: ${{ secrets.EMAIL_USERNAME }} 
           to: ${{ secrets.EMAIL_USERNAME }} 
