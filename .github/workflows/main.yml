@@ -23,4 +23,4 @@ jobs:
           subject: "dailyprint"
           from: ${{ secrets.EMAIL_USERNAME }} 
           to: ${{ secrets.EMAIL_ADDRESS }} 
-          attachments: "line.docx"
+          attachments: "lines.docx"
