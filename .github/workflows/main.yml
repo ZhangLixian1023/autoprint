@@ -1,8 +1,6 @@
 name: Send Email with Attachment
 
 on:
-  schedule:
-    - cron: '0 18 */3 * *' 
   workflow_dispatch: 
 
 jobs:
